@@ -1,11 +1,25 @@
-NAME : TATHEER AIMA NAQVI 
-Registration Number : 542154
-Task 2: I wrote a C++ program that takes five numbers from the user, stores them in an array, and calculates their sum using a simple loop.
-Task 3: I created a Student class with roll number and marks attributes to see how separate objects maintain independent data in memory.
-Task 4: I built a script to scan an array of eight integers and print out both the highest and lowest values along with their positions.
+cat > README.md << 'EOF'
+# DSA Lab 01 - Arrays, Basic OOP and Git
 
+**Name:** Tatheer Aima Naqvi
+**Registration/CMS ID:** 542154
+**Class:** BSCS 15 E
 
-Task 3 Test Results:
-1. Initial output showed s1 with roll number 1 and 75 marks, and s2 with roll number 2 and 90 marks.
-2. After changing s1.marks to 80, s1 updated to 80 while s2 remained at 90 marks.
-3. Changing s1.marks did not affect s2 because they are independent object instances.
+## Programs
+
+- **Task 1:** Creates a 5-element array, updates the third element to 7, and prints all values using a for loop.
+- **Task 2:** Reads 5 integers into an array with one loop, then adds them up and displays the total with a second loop.
+- **Task 3:** Defines a Student class with rollNumber and marks, creates two objects, and shows that changing one object's data doesn't affect the other.
+- **Task 4:** Reads 8 integers and finds the smallest and largest values along with their first-occurrence indices.
+- **Task 5:** Same requirement as Task 4 (identical statement), so Task 4's program was reused.
+- **Task 6:** Reverses a 6-element array in place using two index pointers, without using a second array.
+- **Task 7:** Moves the first occurrence of each distinct value to the front of a 10-element array and displays the unique values and their count.
+
+## Task 2 Test Results
+
+| Test Input   | Expected Total | Actual Total |
+|---------------|-----------------|----------------|
+| 1 2 3 4 5     | 15              | 15             |
+| 0 0 0 0 0     | 0               | 0              |
+| -2 4 -1 0 3   | 4               | 4              |
+EOF
