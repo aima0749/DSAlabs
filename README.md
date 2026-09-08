@@ -6,6 +6,6 @@ Task 4: I built a script to scan an array of eight integers and print out both t
 
 
 Task 3 Test Results:
-1. Initial output showed s1 with roll number 1 and 75 marks, and s2 with roll number 2 and 90 marks[cite: 1].
-2. After changing s1.marks to 80, s1 updated to 80 while s2 remained at 90 marks[cite: 1].
-3. Changing s1.marks did not affect s2 because they are independent object instances[cite: 1].
+1. Initial output showed s1 with roll number 1 and 75 marks, and s2 with roll number 2 and 90 marks.
+2. After changing s1.marks to 80, s1 updated to 80 while s2 remained at 90 marks.
+3. Changing s1.marks did not affect s2 because they are independent object instances.
